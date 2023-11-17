@@ -8,9 +8,9 @@ export default defineConfig({
 	plugins: [
 		vue(),
 		VitePWA({
-			strategies:"injectManifest",
-			srcDir:"src",
-			filename:"sw.js",
+			strategies:"generateSW",
+			// srcDir:"src",
+			// filename:"sw.js",
 			registerType: 'autoUpdate',
 			devOptions: {
 				enabled: true
