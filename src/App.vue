@@ -1,9 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import ReloadPrompt from './components/ReloadPrompt.vue'
 </script>
 
 <template>
-  <div>
+	<ReloadPrompt />
+
+	<div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -11,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue1" />
 </template>
 
 <style scoped>
