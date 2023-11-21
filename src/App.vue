@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import IndexedDb from './components/IndexedDbImage.vue'
 import ReloadPrompt from './components/ReloadPrompt.vue'
 </script>
 
@@ -14,7 +15,8 @@ import ReloadPrompt from './components/ReloadPrompt.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue1" />
+<!--  <HelloWorld msg="Vite + Vue1" />-->
+  <IndexedDb/>
 </template>
 
 <style scoped>
