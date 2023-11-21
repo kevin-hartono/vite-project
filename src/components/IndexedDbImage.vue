@@ -195,10 +195,10 @@ const deleteData = () => {
   request.onsuccess = (event) => {
     const db = event.target.result;
 
-    const deleteTransaction = db.transaction("customers", "readwrite");
-    const deleteObjectStore = deleteTransaction.objectStore("customers");
+    const deleteTransaction = db.transaction("images", "readwrite");
+    const deleteObjectStore = deleteTransaction.objectStore("images");
 
-    const deleteRequest = deleteObjectStore.delete(keyToDelete);
+    const deleteRequest = deleteObjectStore.delete("image1");
 
     deleteRequest.onsuccess = (event) => {
       console.log("Data deleted successfully");
