@@ -5,7 +5,7 @@ import { registerSW } from 'virtual:pwa-register'
 
 
 // const intervalMS = 60 * 60 * 1000
-const intervalMS = 3 * 1000
+const intervalMS = 3 * 60 * 60 * 1000
 
 const updateSW = registerSW({
 	onRegistered(r) {
